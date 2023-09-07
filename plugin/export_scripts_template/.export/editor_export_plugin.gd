@@ -2,7 +2,7 @@
 extends EditorExportPlugin
 
 # TODO: Update to your plugin's name.
-var _plugin_name = "GDExtensionAndroidPluginTemplate"
+var _plugin_name = "ARCoreGDExtension"
 
 func _supports_platform(platform):
 	if platform is EditorExportPlatformAndroid:

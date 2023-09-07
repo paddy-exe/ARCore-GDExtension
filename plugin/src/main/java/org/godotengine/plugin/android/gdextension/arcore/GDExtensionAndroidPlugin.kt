@@ -1,15 +1,15 @@
 // TODO: Update to match your plugin's package name.
-package org.godotengine.plugin.android.gdextension.template
+package org.godotengine.plugin.android.gdextension.arcore
 
 import android.util.Log
 import org.godotengine.godot.Godot
 import org.godotengine.godot.plugin.GodotPlugin
 import org.godotengine.godot.plugin.UsedByGodot
 
-class GDExtensionAndroidPlugin(godot: Godot): GodotPlugin(godot) {
+class ARCoreGDExtension(godot: Godot): GodotPlugin(godot) {
 
     companion object {
-        val TAG = GDExtensionAndroidPlugin::class.java.simpleName
+        val TAG = ARCoreGDExtension::class.java.simpleName
 
         init {
             try {

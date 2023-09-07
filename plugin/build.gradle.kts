@@ -6,10 +6,10 @@ plugins {
 }
 
 // TODO: Update value to your plugin's name.
-val pluginName = "GDExtensionAndroidPluginTemplate"
+val pluginName = "ARCoreGDExtension"
 
 // TODO: Update value to match your plugin's package name.
-val pluginPackageName = "org.godotengine.plugin.android.gdextension.template"
+val pluginPackageName = "org.godotengine.plugin.android.gdextension.arcore"
 
 /**
  * Flag used to specify whether the `plugin.gdextension` config file has libraries for platforms

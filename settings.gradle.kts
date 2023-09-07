@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 }
 
 // TODO: Update project's name.
-rootProject.name = "GDExtensionAndroidPluginTemplate"
+rootProject.name = "ARCoreGDExtension"
 include(":plugin")

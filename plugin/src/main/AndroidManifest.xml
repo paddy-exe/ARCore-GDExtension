@@ -15,7 +15,7 @@
         -->
         <meta-data
             android:name="org.godotengine.plugin.v2.${godotPluginName}"
-            android:value="${godotPluginPackageName}.GDExtensionAndroidPlugin"/>
+            android:value="${godotPluginPackageName}.ARCoreGDExtension"/>
     </application>
 
 </manifest>
