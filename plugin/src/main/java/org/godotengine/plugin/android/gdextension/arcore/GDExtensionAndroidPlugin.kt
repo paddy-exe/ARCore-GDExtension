@@ -25,6 +25,8 @@ class ARCoreGDExtension(godot: Godot): GodotPlugin(godot) {
 
     override fun getPluginGDExtensionLibrariesPaths() = setOf("res://addons/${BuildConfig.GODOT_PLUGIN_NAME}/plugin.gdextension")
 
+    override fun 
+
     /**
      * Example showing how to declare a native method that uses GDExtension C++ bindings and is
      * exposed to gdscript.
@@ -33,4 +35,10 @@ class ARCoreGDExtension(godot: Godot): GodotPlugin(godot) {
      */
     @UsedByGodot
     private external fun helloWorld()
+
+    @UsedByGodot
+    private external fun initialize_wrapper()
+
+    @UsedByGodot
+    private external fun uninitialize_wrapper()
 }

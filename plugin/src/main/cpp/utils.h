@@ -5,7 +5,7 @@
 #include <godot_cpp/variant/string.hpp>
 #include <jni.h>
 
-#define LOG_TAG "HelloGDExtension"
+#define LOG_TAG "ARCoreGDExtension"
 
 #define ALOG_ASSERT(_cond, ...) \
     if (!(_cond)) __android_log_assert("conditional", LOG_TAG, __VA_ARGS__)
